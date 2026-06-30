@@ -12,6 +12,12 @@ SQLite is optional. If you don't need persistence, you can run the service in-me
 docker run -p 8080:8080 -e RSS_DB_PATH=/data/news.db -v rcrss:/data ghcr.io/dcelasun/richmond-council-rss:latest
 ```
 
+### With systemd
+
+See the included unit file [richmond-council-rss.service](richmond-council-rss.service).
+
+Arch Linux users can use the [AUR package](https://aur.archlinux.org/packages/richmond-council-rss/).
+
 ### Manually
 
 ```sh
