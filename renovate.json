@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "enabledManagers": [
+    "gomod",
+    "github-actions",
+    "dockerfile"
+  ],
+  "postUpdateOptions": [
+    "gomodTidy"
+  ],
+  "prHourlyLimit": 0
+}
