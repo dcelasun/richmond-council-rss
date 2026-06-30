@@ -1,1 +1,9 @@
 .idea/
+
+# Built binary
+/richmond-council-rss
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal

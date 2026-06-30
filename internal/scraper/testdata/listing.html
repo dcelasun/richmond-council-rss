@@ -1,0 +1,2975 @@
+
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <title>News - London Borough of Richmond upon Thames</title>
+
+    <meta name="robots" content="noindex,nofollow">
+    
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="news,latest,updates,stories,community news,village" />
+    <meta name="description" content="View events and updates from local groups, organisations and the Council." />
+    <meta property="og:title" content="News - London Borough of Richmond upon Thames" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="View events and updates from local groups, organisations and the Council." />
+    <meta property="og:url" content="/news" />
+    <meta property="og:image" content="https://www.richmond.gov.uk/lbr400x400.jpg" />
+    <meta property="og:site_name" content="London Borough of Richmond upon Thames" />
+    <meta property="og:locale" content="en_GB" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@LBRUT" />
+    <meta name="twitter:title" content="View events and updates from local groups, organisations and the Council." />
+    <meta name="twitter:description" content="View events and updates from local groups, organisations and the Council." />
+    <meta name="twitter:image" content="https://www.richmond.gov.uk/lbr400x400.jpg" />
+    <link rel="icon" sizes="192x192" href="//www.richmond.gov.uk/lbr192x192.png" />
+    <link rel="apple-touch-icon" href="//www.richmond.gov.uk/lbr180x180.png" />
+
+    <link rel="stylesheet" href="/Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/Assets/css/localfonts.css">
+    <!--[if lt IE 9]>
+     <link href="//www2.richmond.gov.uk/assets/css/nonresp.1.3.css" rel="stylesheet">
+    <![endif]-->
+    <link rel="stylesheet" media="print" href="/Assets/css/print.css" />
+
+
+   
+        <link rel="stylesheet" href="/Assets/css/lbrmain25.css?v=6" />
+    
+  
+  
+
+
+
+
+
+    
+
+
+
+
+
+
+    <style>
+.lb-news-head h1.lb-vil{
+    font-size: 36px;
+}
+
+.lb-article{
+background:#fff;
+clear:top;
+float:left;
+margin:20px 0 10px 0;
+}
+
+
+.modal-dialog {
+
+    width: 700px;
+}
+
+
+.box-shadow-12{
+	font-size: 21px;
+	width:100%;
+		height:35px;
+		background:#FFF;
+	margin:-25px 0px 20px 0;
+	padding:0 10px 0 0;
+
+	text-align:right;
+}
+
+
+.box-shadow-6{
+	font-size: 21px;
+	width:100%;
+		/*height:35px;*/
+	height:auto;
+		background:#FFF;
+	margin:-25px 0px 20px 0;
+	padding:0 10px 0 0;
+
+	text-align:right;
+
+}
+
+.box-shadow-6-events{
+	font-size: 21px;
+	width:100%;
+	
+	height:auto;
+		background:#fdfdc8;
+	margin: 0 0 20px;
+	padding:0 10px 20px 0;
+
+	text-align:right;
+
+}
+
+.box-shadow-6-offers{
+	font-size: 21px;
+	width:100%;
+	
+	height:auto;
+		background:#FFEDEE;
+	margin: 0 0 20px;
+	padding:0 10px 20px 0;
+
+	text-align:right;
+
+}
+
+.box-shadow-6-twitter{
+	font-size: 21px;
+	width:100%;
+		height:auto;
+		background:#F0F8FF;
+	margin: 0 0 20px;
+	padding:0 10px 20px 0;
+
+	text-align:right;
+
+}
+
+
+
+
+.lb-news-jumbotron{
+	 padding: 40px 0 10px;
+	 z-index:1;
+	 background:#FAF8F6;
+	 position:relative;
+	  background-image:  url(//www2.richmond.gov.uk/assets/img/sandpaper.png);
+
+	  background-position:top center;
+
+
+}
+
+.lb-news-jumbotron .jumbotron{
+padding:0;
+}
+
+.row{
+height:100%;
+}
+.lb-news-story{
+	background:#fff;
+	border: 0px solid #dadada;
+	margin-bottom:0px;
+	margin-right:0px;
+	overflow:auto;
+	height:auto;
+
+}
+
+.lb-news-story p {
+    margin: 20px 0 20px;
+}
+
+.lb-story-info p{
+  margin: 0 0 30px;
+}
+
+.lb-news-story h2{
+margin-top: 10px;
+ color: #474646;
+
+}
+
+.lb-full-article{
+display:none;
+}
+
+.lb-story-image{
+background: url(https://www2.richmond.gov.uk/assets/img/hp-img/hp-303x190_heathrow.jpg) left top   no-repeat;
+margin-top:15px;
+	/*height:280px;*/
+	background-size:100%
+}
+.lb-story-image-50{
+background: url(https://www2.richmond.gov.uk/assets/img/hp-img/hp-303x190_heathrow.jpg) left top   no-repeat;
+background-size: 100%;
+margin-top:10px;
+
+		/*height:280px;*/
+}
+
+.lb-story-image-col-4{
+background: url(https://www2.richmond.gov.uk/assets/img/hp-img/hp-303x190_heathrow.jpg) left top   no-repeat;
+background-size: 100%;
+margin-top:10px;
+		height:200px;
+}
+
+.fof{
+
+
+background: url(https://www2.richmond.gov.uk/assets/img/hp-img/hp-303x190_full_of_life_promo.jpg) no-repeat;
+
+}
+
+.kneller{
+
+background: url(https://www2.richmond.gov.uk/assets/img/hp-img/hp-728x521_march3.jpg) no-repeat;
+background-size:100%;
+}
+
+.pharma{
+
+background: url(https://www2.richmond.gov.uk/assets/img/hp-img/hp-303x218_pharmacy2.png) no-repeat;
+background-size:100%;
+margin-bottom:10px;
+}
+
+
+.lb-story-info a{
+padding-left:10px;
+}
+
+.lb-news-story .lb-cta{
+	text-align: center;
+}
+
+.lb-news-head h1 {
+	font-size:50px;
+
+}
+.lb-news-head{
+	font-size: 21px;
+	width:100%;
+	height:13em;
+	background:#FFF;
+	margin:20px auto;
+}
+
+.lb-story-info p.lb-news-date{
+margin-bottom:0;
+padding-bottom:0;
+}
+
+ul.lb-news-tags{
+margin:0;
+padding:0;
+height:48px;
+
+}
+
+ul.lb-news-tags li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+	padding-left: 0px;
+	margin-bottom:24px
+}
+
+ul.lb-news-tags li a{
+	padding-left: 0px;
+}
+
+.jumbotron{
+background:#fff;
+}
+
+
+.box h3{
+	text-align:center;
+	position:relative;
+	top:80px;
+}
+.box {
+	width:70%;
+	height:200px;
+	background:#fff!important;
+	margin:40px auto;
+}
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+.effect2
+{
+  position: relative;
+
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 1%;
+  max-width:300px;
+  background: #777!importnant;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
+.lb-events-tile{
+	background-color:#fdfdc8;
+}
+
+.lb-twitter-tile{
+	background-color:#F0F8FF;
+}
+
+.lb-offers-tile{
+	background-color:#FFEDEE;
+}
+
+.twitter-timeline{
+
+margin-bottom:20px;
+height:300px;
+}
+
+
+.modal.fade .modal-dialog
+{
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+
+
+
+
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+
+
+
+
+
+
+
+.modal.fade .modal-dialog
+{
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -webkit-transition: none !important;
+    transition: width !important;
+
+
+
+
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+
+
+.lb-focus-story{
+left:50%;
+width:600px;
+height:600px;
+  z-index: 1050!important;
+position:absolute!important;
+
+}
+
+.modal-content p{
+	font-size:110%;
+}
+
+.lb-leader p{
+	font-size:130%;
+	font-weight:normal;
+}
+
+.lb-leader{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+
+.modal-content{
+	padding:20px;
+	border-radius: 0px;
+}
+
+.modal-dialog{
+margin-top:100px;
+font-size:100%;
+
+}
+
+.fb-like span{
+margin:0 10px 10px;
+}
+
+.box-shadow-6 .twitter-share-button{
+width:85px!important;
+}
+
+p.lb-press-line{
+font-size:16px;
+margin-bottom:10px;
+}
+
+.lb-sm{
+
+
+}
+
+.fb_iframe_widget {
+    display: inline;
+    position: inherit!important;
+    right: 100px;
+	bottom:0px;
+	padding:0px;
+
+}
+
+
+
+.lb-story-highlight {
+    border-left: medium none #9ecaed;
+    border-right: medium none #9ecaed;
+    border-top: medium none #9ecaed;
+    box-shadow: 0 0 30px #000;
+}
+
+
+/*Events blank*/
+.lb-events-tile .panel{
+	box-shadow: none;
+}
+.lb-events-tile .panel-default {
+    border:0;
+}
+
+.lb-events-tile .panel-default > .panel-heading + .panel-collapse .panel-body {
+    border:0px;
+}
+
+.lb-events-tile .panel-body{
+padding-top:0px;
+/*background-color:#fff!important;*/
+margin-left:20px;
+ border:0;
+}
+
+.lb-events-tile .panel-heading{
+border:0;
+border-radius:0;
+
+}
+
+
+.lb-events-tile .panel{
+	background:#FDFDC8;
+}
+.lb-events-tile .panel-default > .panel-heading {
+    background-color: #FDFDC8;
+    border-color: #FDFDC8;
+    color: #333;
+    border:0;
+    /*border-bottom:1px #06b solid;*/
+}
+
+.lb-events-tile .panel-default a{
+	color:#333;
+}
+.lb-events-tile .panel-default a strong{
+	color:#333;
+}
+
+
+.lb-events-tile .label{
+border-radius:0px;
+ margin-right: 10px;
+ background-color: #2e6ca2;
+}
+
+
+.lb-events-tile a.lb-event-title{
+	
+}
+
+.lb-events-tile .panel-body{
+
+padding-left: 75px;
+padding-top:10px;
+font-weight:bold;
+}
+
+.lb-events-tile a.lb-event-more{
+/*color:#428BCA;*/
+color:#2e6ca2;
+}
+
+
+.lb-show-news-btn{
+float:left;border-radius:0;margin-left:5px
+}
+#vil{
+
+width:68%;float:left;
+}
+
+.lb-submit-story{
+padding-top:20px;
+font-size:16px;
+clear:left;
+}
+
+.lb-older{
+padding-top: 20px;
+}
+
+
+@media (max-width: 992px) {
+	.lb-news-head{
+		height:12em;
+	}
+	
+	.lb-show-news-btn {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		float:left;
+	}
+	
+	
+	#vil{
+
+width:100%;float:none;
+}
+	
+}
+
+@media (max-width: 767px) {
+	.lb-news-head{
+		height:auto;
+		padding-bottom:10px;
+	}
+	
+	.lb-news-head h1 {
+    	font-size: 36px;
+		padding-top: 10px;
+	}
+	
+	.lb-news-head h2 {
+    	font-size: 26px;
+		padding-top: 10px;
+		margin-top: 10px;
+	}
+	.lb-news-jumbotron{
+		padding-top:0px;
+		
+	}
+	
+	
+	
+	
+}
+</style>
+
+
+<script id="civicCC" src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+
+<script>
+    function deleteCookie(name, domain, path) {
+
+        if (path === undefined) {
+            path = '/';
+        }
+        document.cookie = name + '=; Path=' + path + '; Domain=' + domain + '; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    }
+
+
+
+
+
+    var config = {
+        accessibility: {
+            highlightFocus: true
+        },
+        iabCMP: true,
+        apiKey: '6cedc0f0f25c226daa9a9451645297c05efbc80a',
+        product: 'PRO_MULTISITE',
+        initialState: "open",
+        rejectButton: true,
+        toggleType: "slider",
+        layout: "popup",
+        text: {
+            iabCMP: {
+                panelTitle: "This site uses cookies.",
+                panelIntro1: "Cookies are files saved on your phone, tablet or computer when you visit a website.",
+                panelIntro2: "Some cookies on this website are essential, but you can choose whether to accept cookies for analytics (content performance) or to set your advertising preferences.",
+                panelIntro3: "",
+
+                aboutIab: "Advertising services adhere to the ",
+                vendors: "Third party vendors"
+            }
+        },
+        statement: {
+            description: 'For more information visit our',
+            name: 'Privacy Notice',
+            url: 'https://www.richmond.gov.uk/data_protection',
+            updated: '01/12/2022'
+        },
+        branding: {
+            removeAbout: true
+
+        },
+        necessaryCookies: ['UMB*', 'OpenIdConnect*', 'ARRAffinity'],
+        onLoad: function () {
+
+            // event listeners for changes to iab consent
+            var tcfCallback = function (tcData, success) {
+                if (success) {
+
+
+                    if (tcData.eventStatus === "useractioncomplete" && tcData.purpose.consents['8']) {
+
+
+                        //Initiate SiteImprove Analytics
+                        (function () {
+                            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+                            sz.src = '//siteimproveanalytics.com/js/siteanalyze_373895.js';
+                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+                        })();
+
+
+                    }
+                    else {
+
+
+                        // Delete SiteImprove cookies
+                        deleteCookie("nmstat", ".www.richmond.gov.uk");
+                        deleteCookie("nmstat", ".richmond.gov.uk");
+
+                    }
+
+                }
+            };
+
+            // callback executed each time consent string changes
+            __tcfapi('addEventListener', 2, tcfCallback);
+
+        },
+        position: 'LEFT',
+        theme: 'LIGHT'
+    };
+
+    CookieControl.load(config);
+
+
+
+
+</script>
+
+  
+
+        <!--webchat-->
+        <script>
+            "use strict";(function(){const o=[],r=[];let c=null;window.Connect={init:(...e)=>(c=new Promise((n,t)=>{o.push({resolve:n,reject:t,args:e})}),c),on:(...e)=>{r.push(e)}},window.__onConnectHostReady__=function(e){if(delete window.__onConnectHostReady__,window.Connect=e,o&&o.length)for(const n of o)e.init(...n.args).then(n.resolve).catch(n.reject);for(const n of r)e.on(n)};function i(){try{let e=this.response;if(typeof e=="string"&&(e=JSON.parse(e)),e.url){const n=document.querySelectorAll("script")[0],t=document.createElement("script");t.async=!0,t.src=`${e.url}?t=${Date.now()}`,n.parentNode?.insertBefore(t,n)}}catch{}}const s=new XMLHttpRequest;s.addEventListener("load",i),s.open("GET","https://webassist.onconverse.app/api/v1/loader",!0),s.responseType="json",s.send()})();
+        </script>
+ 
+    <script async src="//ads.counciladvertising.net/code/audienceplacement/media/public"></script>
+    
+</head>
+<body>
+   
+    <div><a href="#maincontent" class="skiplink sr-only sr-only-focusable" tabindex="1">Skip to main content</a></div>
+    <header>
+        <div class="container">
+            <div class="d-md-flex justify-content-between toprow">
+                <div><a class="navbar-brand" href="/">Richmond.gov.uk</a></div>
+                <div class="show-small"><a href="/account"><img src="/Assets/img/OIP.jpg" alt="My Account" /></a></div>
+                <div class="site-wide-search lb-search-form-holder">
+                    <form role="search" class="navbar-form lb-search-form-group-inpage" action="/search_results">
+                        <div class="form-group">
+                            <label class="sr-only" for="lb-search-input-inpage">Search term</label>
+                            <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+                            <input id="lb-search-input-inpage" type="text" class="form-control input-header lb-search-input-inpage ui-autocomplete-input" placeholder="Search this site" name="qt2" autocomplete="off">
+                            <button type="submit" class="btn" aria-label="Search"></button>
+                            <input type="hidden" name="ct" value="">
+                        </div>
+                    </form>
+                    <div id="search-results-holder" class="lb-search-results-inpage-holder">
+                        <div class="lb-search-results-inpage">
+                            <div id="lb-search-results-inpage-inner" class="lb-search-results-inpage-inner">
+
+                                <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1x" tabindex="0" style="display: none;"></ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <nav class="row d-md-flex" role="navigation" aria-label="Main">
+
+                <div class="mr-md-auto"><a href="/news" class="lb-active">News</a></div>
+
+
+                    <div class="top-link"><a href="/services">Services</a></div>
+                    <div class="top-link"><a href="/council">The Council</a></div>
+
+                <div class="move-small top-link">
+                    <a href="/account"><img src="/Assets/img/OIP.jpg" alt="">My Account</a>
+                </div>
+
+
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+        
+<!-- this is just to overide the inpage css on the news page-->
+<!--<link rel="stylesheet" href="/Assets/css/lbrut2020nov_updates.css" />
+<style>    .row {
+        height:auto;
+    }
+    .more_news a {
+        background: #2C3E50;
+        color: #fff;
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+</style>
+-->
+
+
+
+
+
+<section>
+    <style>
+        .row {
+            height: auto;
+        }
+
+        .jumbotron {
+            background: #f0f8ff;
+        }
+
+        .news-side {
+            border-left: 2px solid #ccc;
+        }
+
+
+            .news-side h2 {
+                margin-bottom: 2.074rem;
+                margin-top: 2.074rem;
+                padding-top: 2.488rem;
+                font-size: 2.488rem;
+                border-top: 2px solid #ccc;
+                margin-left: 0;
+            }
+
+        /*  .news-side h2:first-of-type {
+                            border-top: 0;
+                            padding-top: 0;
+                        }*/
+        .news-area .row {
+            border-bottom: 2px solid #ccc;
+        }
+
+        .community-news.tool {
+            border: 0;
+            padding: 0;
+            border-radius: 0;
+            margin-bottom: 2.074rem;
+        }
+
+            .community-news.tool h2 {
+                border-top: 0;
+                padding-top: 0;
+            }
+
+            .community-news.tool a {
+                color: #0059b3;
+            }
+
+        @media (max-width: 767px) {
+            .news-area .row {
+                margin-left: -1rem;
+                margin-right: -1rem;
+            }
+        }
+
+        .social-links {
+            display: block;
+            padding-bottom: 2rem;
+            
+        }
+
+            .social-links a.social-media-link {
+                background: #326ab0;
+                padding:3px;
+                width: 30px;
+                height: 30px;
+                display:inline-flex;
+            }
+
+            .social-links a:hover {
+                background: #111;
+            }
+
+        .social-links a:focus-visible {
+            outline: 2px #fd0 solid;
+        }
+
+    </style>
+    <div class="jumbotron" id="maincontent">
+        <div class="container">
+            <div class="nobreadcrumb"></div>
+            <div class="row">
+                <div class="col-lg-10">
+
+                            <h1>News</h1>
+                </div>
+
+
+
+
+                <!--  <div class="col-lg-6">
+                      <div class="tool community-news">
+                          <h2>Community news</h2>
+                          <div class="news-signup"><a href=https://public.govdelivery.com/accounts/UKLBR/subscriber/new class="cta"><img src="~/Assets/img/news-email.png" alt="" />Sign up to our weekly newsletter</a></div>
+
+                      </div>
+                 </div>
+                    -->
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="news-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+
+
+
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/mayor_invites_residents_charity_reception" aria-label="Find out more about Mayor of Richmond upon Thames invites residents to charity launch reception">Mayor of Richmond upon Thames invites residents to charity launch reception</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/mayor_invites_residents_charity_reception">
+                                            <img src="/media/5vhji5d2/asgill_house.jpg" class="img-responsive" alt="Mayor of Richmond upon Thames invites residents to charity launch reception" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Residents are invited to join the Mayor of Richmond upon Thames, Councillor Nancy Baldwin, for a special charity launch reception at the historic Asgill House on Richmond Riverside on Sunday 5 July 2026.&nbsp;</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+30 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/rotary_club_become_heartstarter" aria-label="Find out more about Become a London Heartstarter in Kew">Become a London Heartstarter in Kew</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/rotary_club_become_heartstarter">
+                                            <img src="/media/2d2p3chp/london_heartstarter.jpeg" class="img-responsive" alt="Become a London Heartstarter in Kew" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>The London Heart Starters campaign is bringing more life-saving defibrillators to the city, in the areas where they are needed most. Join Rotary Club of Kew Gardens and London Ambulance Service on 6 August to learn how to save a life.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Rotary Club of Kew Gardens
+
+                                        |
+30 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/merry_wives_york_house_gardens" aria-label="Find out more about Catch Shakespeare&#x27;s Merry Wives in York House Gardens">Catch Shakespeare&#x27;s Merry Wives in York House Gardens</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/merry_wives_york_house_gardens">
+                                            <img src="/media/ai5lpz5e/merry_wives.jpg" class="img-responsive" alt="Catch Shakespeare&#x27;s Merry Wives in York House Gardens" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>From 13-18 July, the Richmond Shakespeare Society's annual open-air show returns to York House Gardens.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Richmond Shakespeare Society
+
+                                        |
+30 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/thames_safety_teddington_lock" aria-label="Find out more about Don&#x27;t risk it. Don&#x27;t jump into the Thames at Teddington Lock">Don&#x27;t risk it. Don&#x27;t jump into the Thames at Teddington Lock</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-12 newsrowimageholder">
+                                    <iframe class="lazy" width="100%" height="400" src="https://www.youtube.com/embed/jJK_La_Yq-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>As great as it can be for cooling off, it is important to remember that the Thames is a dangerous river - cold water shock, shallow water and debris can all cause serious risk to life.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+29 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/care_and_enjoy_our_parks" aria-label="Find out more about Care for wildlife while you enjoy the parks">Care for wildlife while you enjoy the parks</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/care_and_enjoy_our_parks">
+                                            <img src="/media/25926/swans_richmond.jpg" class="img-responsive" alt="Care for wildlife while you enjoy the parks" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>As the warm weather arrives, our parks become the perfect place for a walk, a picnic, and to enjoy nature. These spaces are special because we share them with wildlife, and protecting them starts with small thoughtful choices.&nbsp;</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+26 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/new_transport_strategy" aria-label="Find out more about Better connected: New strategy starts journey to improved transport links for Richmond">Better connected: New strategy starts journey to improved transport links for Richmond</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/new_transport_strategy">
+                                            <img src="/media/hqqbate2/transport_strategy_2040.jpg" class="img-responsive" alt="Better connected: New strategy starts journey to improved transport links for Richmond" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>A bold new strategy to improve mobility throughout Richmond upon Thames by strengthening the borough’s transport networks has been launched by the Council.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+25 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/summer_of_suspense_at_twickenham_library" aria-label="Find out more about Summer of suspense at Twickenham Library">Summer of suspense at Twickenham Library</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/summer_of_suspense_at_twickenham_library">
+                                            <img src="/media/1dvdsgvr/summer_of_suspense.jpg" class="img-responsive" alt="Summer of suspense at Twickenham Library" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Whether you’re already a fan of gripping crime fiction or simply looking for your next great read, join us for an exciting evening with four outstanding writers on Thursday 9 July at Twickenham Library.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+25 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/french_conversation_etna" aria-label="Find out more about Live Languages: Charity French coffee morning at ETNA">Live Languages: Charity French coffee morning at ETNA</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/french_conversation_etna">
+                                            <img src="/media/anvmai04/pause_cafe.jpg" class="img-responsive" alt="Live Languages: Charity French coffee morning at ETNA" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Calling all Francophiles! On Saturday 5 September, residents of all ages and levels of French are invited to practise their French conversation at ETNA Community Centre.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Live Languages
+
+                                        |
+25 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/barnes_mum_builds_village_to_end_family_loneliness" aria-label="Find out more about Barnes mum builds village to end family loneliness">Barnes mum builds village to end family loneliness</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/barnes_mum_builds_village_to_end_family_loneliness">
+                                            <img src="/media/xmsabfme/barnes_green.jpg" class="img-responsive" alt="Barnes mum builds village to end family loneliness" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Loneliness doesn't care if you live somewhere beautiful. Parents are standing next to each other in Barnes, on the Common, at the school gate - and they are completely alone. Chloe Stephens, a single mum with nearly 30 years in childcare, built The Village Barnes to change that.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | The Village Barnes
+
+                                        |
+25 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/comment_spot/comment_spot_archive/council_blog_2026/new_blog_courage_at_heart_of_refugee_week_celebrations" aria-label="Find out more about Courage at the heart of Richmond&#x2019;s Refugee Week celebrations">Courage at the heart of Richmond&#x2019;s Refugee Week celebrations</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/comment_spot/comment_spot_archive/council_blog_2026/new_blog_courage_at_heart_of_refugee_week_celebrations">
+                                            <img src="/media/27632/cllr_fiona_sacks.jpg" class="img-responsive" alt="Courage at the heart of Richmond&#x2019;s Refugee Week celebrations" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>In Richmond, we take our role as a Borough of Sanctuary seriously and are committed to creating a unified community by bringing our sanctuary seekers and residents together. Creating meaningful social connections, cross cultural conversations and celebrating our diversity is what builds cohesion and integration. And that is exactly what happened during recent Refugee Week.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council blog</strong>
+
+                                        |
+25 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/free_solar_panel_webinar" aria-label="Find out more about Free webinar &#x2013; Ask the experts: solar panels and retrofitting in Richmond">Free webinar &#x2013; Ask the experts: solar panels and retrofitting in Richmond</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/free_solar_panel_webinar">
+                                            <img src="/media/k2cbhxd0/solar_panels.jpg" class="img-responsive" alt="Free webinar &#x2013; Ask the experts: solar panels and retrofitting in Richmond" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Thinking about solar panels, batteries, or planning wider energy upgrades to your home? We are hosting a free <a href="https://events.teams.microsoft.com/event/e5117450-3580-4da9-b33f-dd03a168b159@d9d3f5ac-f803-49be-949f-14a7074d74a7">'ask me anything' webinar</a> to help you get started.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+24 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/forest_rollout_progressing_well" aria-label="Find out more about Forest e-bike rollout progressing well as Lime service ends 26 June">Forest e-bike rollout progressing well as Lime service ends 26 June</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/forest_rollout_progressing_well">
+                                            <img src="/media/ncnktzpr/forest_bike_lime_ends.jpg" class="img-responsive" alt="Forest e-bike rollout progressing well as Lime service ends 26 June" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>The rollout of Forest e-bikes across Richmond upon Thames is well underway, with Lime’s service now in the final phase of the transition ahead of full changeover on Friday 26 June.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+24 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/free_art_spaces" aria-label="Find out more about Apply for free space to grow your art project">Apply for free space to grow your art project</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/free_art_spaces">
+                                            <img src="/media/kjvlz40u/artists_make_space.jpg" class="img-responsive" alt="Apply for free space to grow your art project" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Our <a href="/services/arts/arts_development/artists_make_space_2026_27" title="Artists Make Space 2026-27">Artists Make Space</a> programme supports artists by providing free studio space across the borough. Submit your application by Sunday 5 July.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+24 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/centre_stage_richmond_myths_programme_revealed" aria-label="Find out more about Centre Stage: Richmond Myths programme revealed as countdown begins to summer festival weekend">Centre Stage: Richmond Myths programme revealed as countdown begins to summer festival weekend</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/centre_stage_richmond_myths_programme_revealed">
+                                            <img src="/media/4eags2bs/centre_stage_festival.jpg" class="img-responsive" alt="Centre Stage: Richmond Myths programme revealed as countdown begins to summer festival weekend" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>With just over four weeks until Richmond’s biggest free cultural weekend of the summer, the full programme for Centre Stage: Richmond Myths has been unveiled.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+24 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/young_eco_champions_spark_climate_action" aria-label="Find out more about Young Eco Champions empowered to spark climate action across Richmond upon Thames">Young Eco Champions empowered to spark climate action across Richmond upon Thames</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/young_eco_champions_spark_climate_action">
+                                            <img src="/media/vufpykj1/eco_summit_1.png" class="img-responsive" alt="Young Eco Champions empowered to spark climate action across Richmond upon Thames" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>45 primary school pupils from 8 local schools across Richmond upon Thames came together this week for an inspiring Eco Summit designed to empower young people to take action for nature and the climate.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+24 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/climate_action_richmond" aria-label="Find out more about Climate action in Richmond during Climate Action Week 2026">Climate action in Richmond during Climate Action Week 2026</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-12 newsrowimageholder">
+                                    <iframe class="lazy" width="100%" height="400" src="https://www.youtube.com/embed/y9WQoLEdbmk?si=MM5U89FFY75_p2WT" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>It’s Climate Action Week, and we’re sharing how we’re taking action on climate change across Richmond.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+23 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/community_effort_to_save_barnes_swifts" aria-label="Find out more about Civic Pride Fund empowers community effort to save Barnes&#x2019; swifts">Civic Pride Fund empowers community effort to save Barnes&#x2019; swifts</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/community_effort_to_save_barnes_swifts">
+                                            <img src="/media/edfji3ot/swift_box.jpg" class="img-responsive" alt="Civic Pride Fund empowers community effort to save Barnes&#x2019; swifts" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Our Civic Pride Fund recently supported a powerful community led conservation project by local charity Barnes Common Limited.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+23 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/celebrate_flood_resilience_climate_action" aria-label="Find out more about The power of partnership: Community BlueScapes Fair celebrates flood resilience and climate action">The power of partnership: Community BlueScapes Fair celebrates flood resilience and climate action</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/celebrate_flood_resilience_climate_action">
+                                            <img src="/media/13mfzp2y/community_bluescapes_fair.jpg" class="img-responsive" alt="The power of partnership: Community BlueScapes Fair celebrates flood resilience and climate action" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Residents, families, partners, and stakeholders flocked to the OSO Arts Centre in Barnes on Saturday for the latest Community BlueScapes Fair.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+23 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/support_local_small_charities" aria-label="Find out more about Celebrate and support our local small charities">Celebrate and support our local small charities</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/support_local_small_charities">
+                                            <img src="/media/de3lkt4a/richmond_cvs.jpg" class="img-responsive" alt="Celebrate and support our local small charities" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Running from 22 to 29 June, Small Charity Week is a chance to celebrate the incredible contribution of local charities that make Richmond upon Thames a compassionate and connected borough.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+22 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/flood_resilience_project_gains_national_recognition" aria-label="Find out more about Innovative&#xA0;flood-resilience&#xA0;project&#xA0;gains national recognition as finalist&#xA0;for multiple awards">Innovative&#xA0;flood-resilience&#xA0;project&#xA0;gains national recognition as finalist&#xA0;for multiple awards</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/flood_resilience_project_gains_national_recognition">
+                                            <img src="/media/e5bfndgx/flood_resillience_project.jpg" class="img-responsive" alt="Innovative&#xA0;flood-resilience&#xA0;project&#xA0;gains national recognition as finalist&#xA0;for multiple awards" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Richmond’s first flood resilient street has achieved more recognition for its pioneering approach.&nbsp;</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+22 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/special_offer_york_house_centenary" aria-label="Find out more about Special offer: 100 weddings to celebrate 100 years of York House">Special offer: 100 weddings to celebrate 100 years of York House</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/special_offer_york_house_centenary">
+                                            <img src="/media/4vgh4xq3/york_house_centenary.jpg" class="img-responsive" alt="Special offer: 100 weddings to celebrate 100 years of York House" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>2026 marks the centenary of York House as a public building and to celebrate Richmond Council is offering 100 couples the opportunity to be part of this historic milestone.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+22 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/investment_into_petersham_road_upgrades" aria-label="Find out more about Record investment programme drives next phase of Petersham Road upgrades">Record investment programme drives next phase of Petersham Road upgrades</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/investment_into_petersham_road_upgrades">
+                                            <img src="/media/odwpvugb/petersham_road_improvements.jpeg" class="img-responsive" alt="Record investment programme drives next phase of Petersham Road upgrades" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Improvement works continue on Petersham Road next month, as part of our ambitious £21 million investment programme to upgrade roads and pavements across the borough.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+19 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/celebrate_refugee_week" aria-label="Find out more about Richmond celebrates culture and courage during Refugee Week">Richmond celebrates culture and courage during Refugee Week</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/celebrate_refugee_week">
+                                            <img src="/media/tsspbr1j/celebrate_refugee_week.jpg" class="img-responsive" alt="Richmond celebrates culture and courage during Refugee Week" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Local groups, residents and sanctuary seekers came together for a vibrant community celebration for Refugee Week 2026. With World Refugee Day on 20 June, the event highlighted the moments that brought our community together.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+19 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/heathrow_consultation_criticism" aria-label="Find out more about Heathrow expansion consultation launched on Clean Air Day &#x2018;deserves fresh criticism&#x2019;, says Richmond Council Leader">Heathrow expansion consultation launched on Clean Air Day &#x2018;deserves fresh criticism&#x2019;, says Richmond Council Leader</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/heathrow_consultation_criticism">
+                                            <img src="/media/zhvmsix5/heathrow_consultation.jpg" class="img-responsive" alt="Heathrow expansion consultation launched on Clean Air Day &#x2018;deserves fresh criticism&#x2019;, says Richmond Council Leader" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Richmond Council’s Leader has today criticised the government's decision to launch a consultation on Heathrow expansion on Clean Air Day – calling the timing ‘ironic’ – and warning that a third runway would mean more noise, more pollution and more disruption for communities already affected by the airport.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+18 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/summer_tennis" aria-label="Find out more about Play tennis in Richmond this summer">Play tennis in Richmond this summer</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/summer_tennis">
+                                            <img src="/media/x2nej0gu/tennis.jpg" class="img-responsive" alt="Play tennis in Richmond this summer" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Inspired by Wimbledon to dust of your racket or learn to play tennis? There are 11 public tennis court sites to choose from in Richmond upon Thames.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+18 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/teddington_school_clean_air" aria-label="Find out more about Teddington School celebrates achieving Gold Clean Air School Accreditation status">Teddington School celebrates achieving Gold Clean Air School Accreditation status</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/teddington_school_clean_air">
+                                            <img src="/media/cpjltkbp/teddington_school_clean_air.jpg" class="img-responsive" alt="Teddington School celebrates achieving Gold Clean Air School Accreditation status" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Teddington School has become the first in the borough to receive a new clean air accreditation, with it achieving gold status.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+18 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/box_walks" aria-label="Find out more about Ready to give your walks a purpose? Try the newly-launched Box Walks">Ready to give your walks a purpose? Try the newly-launched Box Walks</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/box_walks">
+                                            <img src="/media/r1hi0wg2/box_walks_2.jpeg" class="img-responsive" alt="Ready to give your walks a purpose? Try the newly-launched Box Walks" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Box Walks is a new initiative using cleaned-up old phone boxes for a nature walk, with information at each phone box about a different aspect of climate change and sustainability.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Box Walks
+
+                                        |
+18 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/charity_bubble_show" aria-label="Find out more about Bubble show aims to bring joy across generations and raise money for charity">Bubble show aims to bring joy across generations and raise money for charity</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/charity_bubble_show">
+                                            <img src="/media/yhbhg1rf/bubble_show.png" class="img-responsive" alt="Bubble show aims to bring joy across generations and raise money for charity" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Local award-winning charity, Brighter Together, have been selected to participate in The Big Give Small Charity Week from 22 to 29 June, where all public donations will be match funded.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Brighter Together
+
+                                        |
+18 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/our_borough_of_sanctuary_history_on_display" aria-label="Find out more about Richmond&#x2019;s history as a welcoming Borough of Sanctuary on display">Richmond&#x2019;s history as a welcoming Borough of Sanctuary on display</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/our_borough_of_sanctuary_history_on_display">
+                                            <img src="/media/jpuebteg/garden_of_sanctuary_board.jpeg" class="img-responsive" alt="Richmond&#x2019;s history as a welcoming Borough of Sanctuary on display" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>A new information board has been installed at the <a href="/news/news_june_2025/garden_of_sanctuary_unveiled" title="Garden of Sanctuary unveiled, honouring Richmond’s refugee heritage">Garden of Sanctuary</a>, helping visitors learn more about the borough’s longstanding commitment to supporting people seeking sanctuary.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+17 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/richmond_employers_unite_to_boost_opportunities" aria-label="Find out more about Richmond employers unite to boost opportunities for young people">Richmond employers unite to boost opportunities for young people</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/richmond_employers_unite_to_boost_opportunities">
+                                            <img src="/media/ejqgn4hz/employer_roundtable.jpg" class="img-responsive" alt="Richmond employers unite to boost opportunities for young people" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Leading employers from across Richmond upon Thames have come together to explore how new national apprenticeship reforms are changing the way businesses invest in skills – and how more young people could access training and employment opportunities locally.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+16 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/richmond_sustainability_forum_at_the_fixery" aria-label="Find out more about Richmond Sustainability Forum brings repairs and reuse to life at The Fixery">Richmond Sustainability Forum brings repairs and reuse to life at The Fixery</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/richmond_sustainability_forum_at_the_fixery">
+                                            <img src="/media/0rpmvwiz/richmond_sustainability_forum_at_the_fixery.jpg" class="img-responsive" alt="Richmond Sustainability Forum brings repairs and reuse to life at The Fixery" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>More than 200 people gathered at Grove Gardens on Saturday to attend the eighth Richmond Sustainability Forum and explore The Fixery – Richmond’s new repair and reuse hub in the recently refurbished Grove Gardens Chapel.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+16 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/join_richmond_mencap_learning_disability_awareness_day_event" aria-label="Find out more about Join Richmond Mencap&#x27;s Learning Disability Awareness Day event">Join Richmond Mencap&#x27;s Learning Disability Awareness Day event</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/join_richmond_mencap_learning_disability_awareness_day_event">
+                                            <img src="/media/sjyf0bqu/york_house_front.jpg" class="img-responsive" alt="Join Richmond Mencap&#x27;s Learning Disability Awareness Day event" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Join Richmond Mencap at York House on 17 June for a fantastic community celebration packed with fun, food, and fantastic entertainment. Browse exciting stalls, enjoy delicious food, and soak up live music performances throughout the day.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Richmond Mencap
+
+                                        |
+16 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/cargo_bike_vouchers" aria-label="Find out more about New vouchers help residents and businesses try cargo bikes for less">New vouchers help residents and businesses try cargo bikes for less</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/cargo_bike_vouchers">
+                                            <img src="/media/xmlhkxxb/cargo_bike_voucher.jpg" class="img-responsive" alt="New vouchers help residents and businesses try cargo bikes for less" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Residents and businesses in Richmond upon Thames are being invited to try a cleaner, greener way to travel, with our latest cargo bike offers.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+11 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/home_start_30_years" aria-label="Find out more about Home-Start celebrating 30 years of local impact">Home-Start celebrating 30 years of local impact</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/home_start_30_years">
+                                            <img src="/media/jdhou3hb/home_start_rkh.jpg" class="img-responsive" alt="Home-Start celebrating 30 years of local impact" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>For 30 years, Home-Start Richmond Kingston and Hounslow has supported families across Richmond, Kingston and Hounslow facing challenges like isolation, mental health difficulties, disability, financial issues and domestic abuse.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Home-Start Richmond Kingston and Hounslow
+
+                                        |
+11 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/soar_for_skylarks_over_the_allianz" aria-label="Find out more about Soar for Skylarks over the Allianz">Soar for Skylarks over the Allianz</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/soar_for_skylarks_over_the_allianz">
+                                            <img src="/media/ratbydhf/allianz_skylarks.jpg" class="img-responsive" alt="Soar for Skylarks over the Allianz" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Get ready for the ultimate adrenaline rush! Join us for the Twickenham Zipwire, an unforgettable 150m zipline adventure across the Allianz Stadium, the home of English rugby. Feel the thrill as you soar high above the pitch while friends, family, and fellow participants cheer you on.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Skylarks Charity
+
+                                        |
+10 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/open_day_at_poppy_factory" aria-label="Find out more about Armed Forces Week: Open day at The Poppy Factory">Armed Forces Week: Open day at The Poppy Factory</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/open_day_at_poppy_factory">
+                                            <img src="/media/emhdc2v4/poppy-factory-exterior-2025-2.jpg" class="img-responsive" alt="Armed Forces Week: Open day at The Poppy Factory" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>The Poppy Factory will hold a free open day at the start of Armed Forces Week on Monday 22 June, as the charity celebrates 100 years in Richmond upon Thames.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | The Poppy Factory
+
+                                        |
+10 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/give_items_second_life_at_twickenham_repair_cafe" aria-label="Find out more about Give your items a second life at this month&#x27;s Twickenham Repair Caf&#xE9;">Give your items a second life at this month&#x27;s Twickenham Repair Caf&#xE9;</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/give_items_second_life_at_twickenham_repair_cafe">
+                                            <img src="/media/qd3b3013/repair_cafe.jpeg" class="img-responsive" alt="Give your items a second life at this month&#x27;s Twickenham Repair Caf&#xE9;" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>The next Twickenham Repair Café will be open on Saturday 20 June, for the repair of household items.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Twickenham Repair Caf&#xE9;
+
+                                        |
+10 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/elleray_social_club_forming_friendships_later_in_life" aria-label="Find out more about Elleray Social Club: Forming new friendships later in life">Elleray Social Club: Forming new friendships later in life</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/elleray_social_club_forming_friendships_later_in_life">
+                                            <img src="/media/kgwlbmvu/elleray_chair.jpg" class="img-responsive" alt="Elleray Social Club: Forming new friendships later in life" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Growing older can bring more time to relax, fewer daily pressures and the chance to spend more time enjoying hobbies and family. Yet for some, it also brings a quieter, less welcome visitor – social isolation and loneliness.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | The Elleray Centre and Elleray Social Club
+
+                                        |
+10 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/invite_to_the_safer_neighbourhood_board" aria-label="Find out more about Residents invited to attend the Safer Neighbourhood Board meeting this July">Residents invited to attend the Safer Neighbourhood Board meeting this July</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/invite_to_the_safer_neighbourhood_board">
+                                            <img src="/media/cp3b0qt0/richmond_police_whatsapp_news.jpg" class="img-responsive" alt="Residents invited to attend the Safer Neighbourhood Board meeting this July" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Residents are invited to attend the next Richmond upon Thames Safer Neighbourhood Board (SNB) meeting, taking place at York House in Twickenham on Thursday 9 July at 7pm.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Richmond Safer Neighbourhood Board
+
+                                        |
+10 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/thames_path_anniversary_relay" aria-label="Find out more about Thames Path 30th Anniversary Relay">Thames Path 30th Anniversary Relay</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/thames_path_anniversary_relay">
+                                            <img src="/media/qlkjw3uc/thames_relay.jpg" class="img-responsive" alt="Thames Path 30th Anniversary Relay" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>In celebration of the Thames Path’s 30th anniversary, and in collaboration with Drinkable Thames, a month long relay is taking place from the source in the Cotswolds to Woolwich, passing through Richmond.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Thames Landscape Strategy
+
+                                        |
+10 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/carers_week_activities" aria-label="Find out more about Building a carer-friendly community in Richmond">Building a carer-friendly community in Richmond</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/carers_week_activities">
+                                            <img src="/media/pvkbaeid/carers_week.jpg" class="img-responsive" alt="Building a carer-friendly community in Richmond" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>From Monday 8 to Sunday 14 June, Carers Week shines a spotlight on the vital contribution of unpaid carers across our community and highlights the important of 'Building Carer Friendly Communities'.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+09 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/partner_comment_spot/partner_comment_spot_archive/partner_comment_spot_2026/community_led_cargo_bike_project_takes_off" aria-label="Find out more about Community&#x2011;led cargo bike project takes off in the borough">Community&#x2011;led cargo bike project takes off in the borough</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/partner_comment_spot/partner_comment_spot_archive/partner_comment_spot_2026/community_led_cargo_bike_project_takes_off">
+                                            <img src="/media/risjsukc/cargo_collective.jpg" class="img-responsive" alt="Community&#x2011;led cargo bike project takes off in the borough" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>This Bike Week (8 to 14 June), hear from our team at Richmond Cargo Collective. Discover how local parents are transforming their school run and our streets by swapping cars for cargo bikes and inspiring other families to do the same.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Partner blog</strong>
+                                                 by Richmond Cargo Collective
+
+                                        |
+08 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/new_wetlands_greener_borough" aria-label="Find out more about New wetlands for a greener borough">New wetlands for a greener borough</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/new_wetlands_greener_borough">
+                                            <img src="/media/us4osdsu/buccleugh_gardens.jpg" class="img-responsive" alt="New wetlands for a greener borough" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>In Richmond, we’re fortunate to have the River Thames winding through our borough, shaping the places where people walk, relax and connect with nature.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+05 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/community_power_caring_for_our_trees" aria-label="Find out more about Community power: caring for our trees">Community power: caring for our trees</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/community_power_caring_for_our_trees">
+                                            <img src="/media/g2mjwb1z/tree_council_1.png" class="img-responsive" alt="Community power: caring for our trees" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>National environmental charity <a href="https://treecouncil.org.uk">The Tree Council</a> brought more than 30 volunteers from nine organisations to Kneller Gardens in Twickenham for a day of community giveback. Discover what they achieved and explore simple ways you can get involved.&nbsp;</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+04 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/community_progress_bringing_back_rare_plant" aria-label="Find out more about Community progress in bringing back one of London&#x27;s rarest plants">Community progress in bringing back one of London&#x27;s rarest plants</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/community_progress_bringing_back_rare_plant">
+                                            <img src="/media/h0zfntfx/tower_mustard.jpg" class="img-responsive" alt="Community progress in bringing back one of London&#x27;s rarest plants" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Earlier this year, we joined a London-wide <a href="/news/news_february_2026/community_effort_rare_plant" title="A community effort to bring back one of London's rarest plants">collaborative conservation programme</a> bringing together people and organisations across London to protect and restore tower mustard (Turritis glabra), one of the UK’s rarest native plants.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+04 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/design_poster_st_margarets_station_birthday" aria-label="Find out more about Design a poster to celebrate 150 years of St Margarets Station">Design a poster to celebrate 150 years of St Margarets Station</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/design_poster_st_margarets_station_birthday">
+                                            <img src="/media/obwltreb/st_margarets_station_poster_competition.jpg" class="img-responsive" alt="Design a poster to celebrate 150 years of St Margarets Station" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Get creative and help celebrate the 150th birthday of St Margarets Station with a colourful poster design.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Visit Richmond
+
+                                        |
+04 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/trumpeters_house_garden_party" aria-label="Find out more about Enjoy the Museum of Richmond&#x27;s Trumpeters&#x27; House Garden Party">Enjoy the Museum of Richmond&#x27;s Trumpeters&#x27; House Garden Party</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/trumpeters_house_garden_party">
+                                            <img src="/media/2hikmofm/trumpeters_house.jpeg" class="img-responsive" alt="Enjoy the Museum of Richmond&#x27;s Trumpeters&#x27; House Garden Party" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Unwind in a lovely garden with your favourite drink and a delicious slice of cake, all while enjoying the uplifting sounds of the Barnes Concert Band and fundraising for the Museum of Richmond.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Museum of Richmond
+
+                                        |
+04 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/rss_young_actor_summer_showcase" aria-label="Find out more about RSS Young Actors&#x27; Summer Showcase">RSS Young Actors&#x27; Summer Showcase</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/rss_young_actor_summer_showcase">
+                                            <img src="/media/wvjoehpt/mary_wallace_theatre.jpg" class="img-responsive" alt="RSS Young Actors&#x27; Summer Showcase" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>As part of the 2026 RSS ALIVE! programme, the RSS Young Actors' Company presents its Summer Showcase, featuring some of the work they have been preparing this year.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Richmond Shakespeare Society
+
+                                        |
+04 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/exchange_announces_2026_pantomime" aria-label="Find out more about The Exchange announces Cinderella as 2026 panto">The Exchange announces Cinderella as 2026 panto</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/exchange_announces_2026_pantomime">
+                                            <img src="/media/1ucbytaz/exchange_twickenham.jpg" class="img-responsive" alt="The Exchange announces Cinderella as 2026 panto" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>The Exchange in Twickenham has announced Cinderella as its pantomime for 2026 opening on Monday 7 December for a 20-day run, the longest ever running pantomime production at the venue.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | The Exchange
+
+                                        |
+04 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/take_part_in_artist_of_the_year_competition" aria-label="Find out more about Artist of the Year Competition">Artist of the Year Competition</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/take_part_in_artist_of_the_year_competition">
+                                            <img src="/media/ygtenbhx/artist_of_the_year_competition.jpg" class="img-responsive" alt="Artist of the Year Competition" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>The Arts Richmond Artist of the Year Competition will take place on Saturday 20 June 2026 at Ham House.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Arts Richmond
+
+                                        |
+04 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/twickenham_riverside_transformation_gathers_pace" aria-label="Find out more about Twickenham Riverside transformation gathers pace as major construction begins">Twickenham Riverside transformation gathers pace as major construction begins</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/twickenham_riverside_transformation_gathers_pace">
+                                            <img src="/media/xxcbcgff/twickenham_riverside_progress.jpg" class="img-responsive" alt="Twickenham Riverside transformation gathers pace as major construction begins" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>The transformation of Twickenham Riverside is moving rapidly ahead, with major construction works now underway across the site as the long-awaited regeneration of the town’s waterfront takes shape.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+03 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/partner_comment_spot/partner_comment_spot_archive/partner_comment_spot_2026/shining_a_light_on_our_volunteer_community" aria-label="Find out more about Shining a light on Richmond&#x2019;s volunteer community ">Shining a light on Richmond&#x2019;s volunteer community </a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/partner_comment_spot/partner_comment_spot_archive/partner_comment_spot_2026/shining_a_light_on_our_volunteer_community">
+                                            <img src="/media/gczn0dqp/rcvs_volunteer_week_group.jpg" class="img-responsive" alt="Shining a light on Richmond&#x2019;s volunteer community " />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>This Volunteers’ Week (1 to 7 June), Richmond CVS is sharing insights from their recent Volunteer Fair. Read on for their reflections and to discover how you can get involved.&nbsp;</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Partner blog</strong>
+                                                 by Richmond CVS
+
+                                        |
+02 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/pride_month_2026" aria-label="Find out more about Celebrate pride and love across the borough">Celebrate pride and love across the borough</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/pride_month_2026">
+                                            <img src="/media/p3fpo15q/pride_1.jpg" class="img-responsive" alt="Celebrate pride and love across the borough" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>This June, Pride Month is lighting up Richmond upon Thames with nature adventures, creative workshops, community meetups and book displays celebrating LGBTQ+ voices.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+01 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/refugee_week_events" aria-label="Find out more about Celebrate courage this Refugee Week">Celebrate courage this Refugee Week</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/refugee_week_events">
+                                            <img src="/media/vozhltux/refugee_week_2.jpg" class="img-responsive" alt="Celebrate courage this Refugee Week" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>From 15 to 21 June, Refugee Week 2026 invites everyone to reflect on the theme of ‘Courage’. Come along and experience a programme of inspiring events celebrating the resilience, creativity and diversity of sanctuary seekers in our borough.&nbsp;</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+01 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/forest_launch_richmond" aria-label="Find out more about Forest launches across Richmond upon Thames today &#x2013; delivering cheaper fares, more bikes and a better deal for residents">Forest launches across Richmond upon Thames today &#x2013; delivering cheaper fares, more bikes and a better deal for residents</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/forest_launch_richmond">
+                                            <img src="/media/yxslljqu/forest_1.jpeg" class="img-responsive" alt="Forest launches across Richmond upon Thames today &#x2013; delivering cheaper fares, more bikes and a better deal for residents" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>A new era for e-bike travel begins today in Richmond upon Thames as Forest officially launches its borough-wide hire e-bike service, bringing lower prices, more bikes, and better connectivity for residents.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Council news</strong>
+
+                                        |
+01 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h2><a href="/news/news_june_2026/family_bike_ride_to_osterley_park" aria-label="Find out more about Family bike ride and day of fun at Osterley Park">Family bike ride and day of fun at Osterley Park</a></h2>
+                                </div>
+                               
+
+                                   
+                                    <div class="col-lg-4 newsrowimageholder">
+                                        <a href="/news/news_june_2026/family_bike_ride_to_osterley_park">
+                                            <img src="/media/hpdh3gf0/west_london_cycling_mela.png" class="img-responsive" alt="Family bike ride and day of fun at Osterley Park" />
+                                        </a>
+
+                                        </div>
+                                
+
+                                <div class="col-lg-8">
+
+                                    <p><p>Join fellow Richmond families on Saturday 13 June for a lovely family bike ride from York House, Twickenham to the beautiful Osterley Park, where you can enjoy the West London Cycling Mela.</p></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="news-info">
+                                        <strong>Community news</strong>
+                                                 | Richmond Cargo Collective
+
+                                        |
+01 Jun 26                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-12 more_news">
+
+                                    <p class="text-right"> <a href="/news/news_may_2026">View older news</a></p>
+
+
+
+
+                                </div>
+                            </div>
+
+
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="news-side">
+                        <div class="tool community-news">
+                            <h2>Community news</h2>
+                            <div class="news-signup"><a href=https://public.govdelivery.com/accounts/UKLBR/subscriber/new class="cta"><img src="/Assets/img/news-email.png" alt="" />Sign up to our weekly newsletter</a></div>
+
+                        </div>
+
+                        <h2>Get in touch</h2>
+                        <p>Got a story to share? <a href=https://www.richmond.gov.uk/submit_a_community_news_story>Submit your news</a></p>
+
+                        <p>For media enquiries and contacts visit the <a href=https://www.richmond.gov.uk/press_office>Press Office</a></p>
+
+
+
+
+
+                        <h2>Filter news</h2>
+
+                            <ul class="">
+                                    <li><strong>All news</strong></li>
+
+                                        <li><a href=?nt=councilNews>Council news</a></li>
+                                        <li><a href=?nt=commentSpot>Council blog</a></li>
+                                        <li><a href=?nt=communityNews>Community news</a></li>
+                                        <li><a href=?nt=partnerBlog>Partner blog</a></li>
+                                        <li><a href=?nt=podcast>Podcast</a></li>
+                            </ul>
+                        <h2>Topics</h2>
+                        <ul>
+                                    <li><a href=?topic=Climate&#x2B;change&#x2B;and&#x2B;environment>Climate change and environment</a></li>
+                                    <li><a href=?topic=Cost&#x2B;of&#x2B;living>Cost of living</a></li>
+                                    <li><a href=?topic=Waste&#x2B;and&#x2B;recycling>Waste and recycling</a></li>
+                                    <li><a href=?topic=Health&#x2B;and&#x2B;care>Health and care</a></li>
+                                    <li><a href=?topic=Roads&#x2B;and&#x2B;transport>Roads and transport</a></li>
+                                    <li><a href=?topic=Children&#x2B;and&#x2B;education>Children and education</a></li>
+                                    <li><a href=?topic=Housing>Housing</a></li>
+                                    <li><a href=?topic=Culture%2C&#x2B;leisure&#x2B;and&#x2B;sport>Culture, leisure and sport</a></li>
+                                    <li><a href=?topic=Council&#x2B;Tax%2C&#x2B;finance&#x2B;and&#x2B;funding>Council Tax, finance and funding</a></li>
+                                    <li><a href=?topic=Council&#x2B;business>Council business</a></li>
+                                    <li><a href=?topic=Business%2C&#x2B;economy&#x2B;and&#x2B;skills>Business, economy and skills</a></li>
+                                    <li><a href=?topic=Communities>Communities</a></li>
+                                    <li><a href=?topic=Community&#x2B;safety>Community safety</a></li>
+                                    <li><a href=?topic=Press&#x2B;release>Press release</a></li>
+                        </ul>
+                        <h2>Events</h2>
+                        <p><a href="https://www.visitrichmond.co.uk/events/events-calendar">View local events</a></p>
+                        <h2>Campaigns</h2>
+                        <p><a href="https://www.richmond.gov.uk/campaigns_and_events">View our local initiatives</a></p>
+                        <h2>Consultations</h2>
+                        <p><a href="https://haveyoursay.citizenspace.com/">View consultations and surveys</a></p>
+                        <h2>Videos</h2>
+                        <p><a href="https://www.youtube.com/user/LBRichmonduponThames">View our YouTube channel</a></p>
+
+                        <h2>Social media</h2>
+                        <div class="social-links">
+                            <a href="https://whatsapp.com/channel/0029VaySUhr6hENo1J7M8E41" class="social-media-link"> <img src="/css/images/whatsapp_icon.png" alt="WhatsApp" /></a>
+                            <a href="http://www.instagram.com/richmond_council" class="social-media-link"> <img src="/css/images/instagram_icon.png" alt="Instagram" /></a>
+                            <a href="https://www.facebook.com/lbrut" class="social-media-link"> <img src="/css/images/facebook_icon.png" alt="Facebook" /></a>
+                            <a href="https://www.linkedin.com/showcase/london-borough-of-richmond-upon-thames" class="social-media-link"> <img src="/css/images/linkedin_logo.png" alt="LinkedIn" /></a>
+                            <a href="https://x.com/LBRUT" class="social-media-link "> <img src="/css/images/x_icon.png" alt="X" /></a>
+                            <a href="https://www.youtube.com/LBRichmonduponThames" class="social-media-link"> <img src="/css/images/YouTube_icon.png" alt="YouTube" /></a>
+                        </div>
+
+                        
+
+                        <p><a href="https://www.richmond.gov.uk/social_media_index">More ways to follow us</a></p>
+                        <h2>Browse news</h2>
+                        <ul>
+                                    <li><a href="/news/news_june_2026">June 2026</a></li>
+                                    <li><a href="/news/news_may_2026">May 2026</a></li>
+                                    <li><a href="/news/news_april_2026">April 2026</a></li>
+                                    <li><a href="/news/news_march_2026">March 2026</a></li>
+                                    <li><a href="/news/news_february_2026">February 2026</a></li>
+                                    <li><a href="/news/news_january_2026">January 2026</a></li>
+                                    <li><a href="/news/news_december_2025">December 2025</a></li>
+                                    <li><a href="/news/news_november_2025">November 2025</a></li>
+                                    <li><a href="/news/news_october_2025">October 2025</a></li>
+                                    <li><a href="/news/news_september_2025">September 2025</a></li>
+                                    <li><a href="/news/news_august_2025">August 2025</a></li>
+                                    <li><a href="/news/news_july_2025">July 2025</a></li>
+                                    <li><a href="/news/news_june_2025">June 2025</a></li>
+                                    <li><a href="/news/news_may_2025">May 2025</a></li>
+                                    <li><a href="/news/news_april_2025">April 2025</a></li>
+
+
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="container">
+
+        <div class="row backtowrap">
+            <div class="col-sm-8">
+                <p>Up to: <a href="/">Home</a></p>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="lb-updated-bar" style="text-align: right">
+                    <p>Updated: 28 Jul 2025</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    
+
+
+
+
+
+
+    <div class="govdelivery">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <p>
+                        <img src="/Assets/img/news-email.png" alt="">
+                            <span><strong>Stay up to date!</strong> Make sure you <a href="https://public.govdelivery.com/accounts/UKLBR/subscriber/new">subscribe to our email</a> updates.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <style>footer a {
+        text-decoration:underline;
+        }
+        </style>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 contact-part">
+                   <h2>Contact us</h2>
+                    <ul><li><a href="/telephone_numbers">Telephone</a></li><li><a href="https://richmond-self.achieveservice.com/service/Make_an_enquiry">Online enquiry</a></li></ul>
+                </div>
+                <div class="col-sm-7 lb-lline">
+                    <div class="col-sm-12 col-xs-12 lb-tline">
+                        <p>
+                            <strong>Address</strong>: Civic Centre, 44 York Street, Twickenham, TW1 3BZ<br>
+                                <span><strong>Opening hours</strong>: Monday to Friday: 9am to 5pm</span>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-xs-12 lb-lline">
+                    <div class="col-sm-12">
+                        <p>
+                            <a href="/council_offices_map?uniquepoint=1">View map</a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <ul>
+                        <li class="footnote"><a href="/help">About this site</a></li>
+                        <li class="footnote"><a href="/help/web_accessibility">Accessibility</a></li>
+                        <li class="footnote"><a href="/jobs">Jobs</a></li>
+                        <li class="footnote"><a href="/data_protection">Privacy</a></li>
+                        <li class="footnote"><a id="feedbacklink" href="https://richmond-self.achieveservice.com/service/Tell_us_what_you_think_of_our_website?route=website&amp;page=">Website feedback</a></li>
+                        
+
+                    </ul>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 lb-copy">
+                    <p>&copy; London Borough of Richmond upon Thames</p>
+                </div>
+                <div class="col-sm-4 lb-logo-foot">
+                    <img src="/Assets/img/richmond-logo.png" alt="London Borough of Richmond upon Thames">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="/Assets/scripts/jquery-3.6.0.min.js"></script>
+    <script src="/Assets/scripts/popper.min.js"></script>
+    <script src="/Assets/scripts/bootstrap/bootstrap.min.js"></script>  
+    <script src="/Assets/scripts/jquery-ui.js"></script>
+    <script src="/scripts/core.js?c=20260316"></script>
+    <script src="/Assets/scripts/aria.accordion.min.js"></script>
+    
+
+    
+
+
+   
+
+
+    <!-- GovDelivery Subscription Overlay -->
+    <script src="https://content.govdelivery.com/overlay/js/10641.js"></script>
+    <!-- End GovDelivery Overlay -->
+
+
+</body>
+</html>
