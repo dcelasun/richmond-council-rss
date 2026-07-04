@@ -1,6 +1,6 @@
 module github.com/dcelasun/richmond-council-rss
 
-go 1.26
+go 1.26.4
 
 require (
 	golang.org/x/net v0.56.0

@@ -129,10 +129,7 @@ func pagingLinks(meta Metadata) []atomLink {
 	if meta.PageSize <= 0 {
 		return links
 	}
-	last := (meta.Total + meta.PageSize - 1) / meta.PageSize
-	if last < 1 {
-		last = 1
-	}
+	last := max((meta.Total+meta.PageSize-1)/meta.PageSize, 1)
 	links = append(links,
 		atomLink{Href: pageURL(meta.FeedURL, 1), Rel: "first"},
 		atomLink{Href: pageURL(meta.FeedURL, last), Rel: "last"},
