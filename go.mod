@@ -3,7 +3,7 @@ module github.com/dcelasun/richmond-council-rss
 go 1.26.4
 
 require (
-	golang.org/x/net v0.57.0
+	golang.org/x/net v0.58.0
 	modernc.org/sqlite v1.53.0
 )
 
